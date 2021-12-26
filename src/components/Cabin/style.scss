@@ -1,0 +1,52 @@
+@import "../../assets/scss/variables.scss";
+
+.cabin {
+  .cabin-container {
+    min-width: 350px;
+    padding: var(--space);
+    .in-de-crease {
+      background-color: #f2f2f2;
+      height: auto;
+      padding: 2px;
+      width: 40px;
+      border-radius: 5px;
+      text-align: center;
+      margin: 0px 10px;
+      .in-de-crease-icon {
+        font-size: 16px;
+        text-decoration: none;
+      }
+    }
+    .passenger {
+      margin-top: 20px;
+    }
+  }
+
+  button {
+    background-color: $otherButtonBg;
+    text-align: center;
+    &:hover {
+      background-color: $otherButtonBg;
+    }
+  }
+  .cabin-counter {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: $secondaryColor;
+  }
+  .cabin-icon {
+    font-size: 24px;
+    color: $grayColor;
+    margin-right: 2px;
+    margin-top: 10px;
+  }
+  .cabin-plus-icon {
+    font-size: 12px;
+    margin-top: -5px;
+    color: $grayColor;
+  }
+}

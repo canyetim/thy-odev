@@ -1,0 +1,53 @@
+@import './variables.scss';
+
+.app {
+    padding: 0px var(--space);
+    background-color: $primaryColor;
+    color: $secondaryColor;
+    min-height:100vh;
+ 
+  .app-header {
+    a {
+      color: $secondaryColor;
+      text-decoration: none;
+    }
+    padding-top: var(--space);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: var(--space);
+    //font-size: calc(10px + 2vmin);
+    color: var(--white);
+    border-bottom: 1px solid var(--color-lightgray);
+    margin-bottom: var(--space);
+  }
+}
+
+/*dark theme*/
+.app.dark {
+    background-color: $primaryColor;
+    color: $secondaryColor;
+ 
+  .app-header {
+    a {
+      color: $secondaryColor;
+    }
+    color: var(--white);
+    border-bottom: 1px solid var(--color-lightgray);
+  }
+}
+
+
+/*white theme*/
+.app.white {
+    background-color: $secondaryColor!important;
+    color: $primaryColor!important;
+ 
+  .app-header {
+    a {
+      color: $primaryColor!important;
+    }
+    color: var(--white);
+    border-bottom: 1px solid $primaryColor!important;
+  }
+}

@@ -1,0 +1,16 @@
+@import "../../assets/scss/variables.scss";
+
+.city {
+  button {
+    text-align: left;
+    background-color: $secondaryColor;
+    color: $primaryColor;
+    &:hover {
+      background-color: $secondaryColor;
+      color: $primaryColor;
+    }
+  }
+  .icon {
+    margin-right: 10px;
+  }
+}

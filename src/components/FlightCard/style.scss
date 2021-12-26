@@ -1,0 +1,29 @@
+@import "../../assets/scss/variables.scss";
+
+.flight-card-container {
+  margin-bottom: 20px;
+  .flight-card {
+    justify-content: center;
+
+    .city-name {
+      font-size: 10px;
+    }
+    .line-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: column;
+      .line {
+        border-bottom: 1px solid black;
+        margin-top: 10px;
+        width: 220%;
+      }
+    }
+    .flight-time-title {
+      font-size: 10px;
+    }
+  }
+  .flight-card-subs {
+    margin-top: 20px;
+  }
+}

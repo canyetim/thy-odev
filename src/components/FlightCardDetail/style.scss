@@ -1,0 +1,45 @@
+@import "../../assets/scss/variables.scss";
+
+.card-detail {
+  padding: 0px var(--space) !important;
+
+  .card-detail-header {
+    background-color: #f2f2f2;
+    font-size: 20px;
+    font-weight: 600;
+    padding: var(--space) 0px;
+    .card-detail-header-right {
+      display: flex;
+      justify-content: flex-end;
+      .currency {
+        font-size: 14px;
+        margin-right: 5px;
+      }
+    }
+  }
+  .card-detail-body {
+    background-color: $secondaryColor;
+    height: 250px;
+    border: 1px solid #ccc;
+    .right {
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0px;
+    }
+  }
+  .card-detail-footer {
+    padding: 0;
+    button {
+      background-color: $submitColor !important;
+      border: none;
+      text-align: center;
+      width: 100%;
+      border-radius: 0;
+      padding: var(--space);
+      &:disabled,
+      button[disabled] {
+        background-color: #ccc !important;
+        color: #4e4e4e !important;
+      }
+    }
+  }
+}

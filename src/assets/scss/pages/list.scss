@@ -1,0 +1,39 @@
+.flight-container-header {
+  background-color: $primaryColor;
+  color: $secondaryColor;
+  padding: 14px;
+  border-radius: 4px 4px 0px 0px;
+  margin-top: var(--space);
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+  .search-criteria-title {
+    margin-right: 10px;
+  }
+
+  button {
+    border: 1px solid $secondaryColor;
+    background-color: $primaryColor;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+  }
+}
+
+.flight-container-body {
+  background-color: #fbfbfb;
+  padding: var(--space);
+  border: 1px solid #ddd;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.badge.danger {
+  width: 100%;
+  background-color: $submitColor;
+  color: $secondaryColor;
+  padding: 10px var(--space);
+  margin-bottom: 10px;
+}

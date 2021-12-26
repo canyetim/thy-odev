@@ -1,0 +1,18 @@
+/* thy color palette */
+
+$primaryColor: #063048;
+$secondaryColor: white;
+
+$container: rgb(96, 105, 119);
+$submitColor: #e81932;
+$listShadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+$packageHeaderColor: #f9f9f9;
+/*packageHeaderColor dokümanda yanlış verilmiş. mockuplarda laciverte yakın bir renk kullanılmış.*/
+$otherButtonBg: #242a38;
+$grayColor: #979da7;
+
+:root {
+  --space: 20px;
+  --color-lightgray: #e1e1e1;
+  --border-radius: 0px;
+}

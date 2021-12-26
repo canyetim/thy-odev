@@ -1,0 +1,15 @@
+button {
+  &.btn-link {
+    text-decoration: none;
+    outline: none !important;
+    border: none !important;
+    text-align: left;
+    padding: 0;
+  }
+}
+
+.dropdown-toggle {
+  &::after {
+    display: none !important;
+  }
+}

@@ -1,0 +1,13 @@
+@import "../../assets/scss/variables.scss";
+
+.calendar {
+  button {
+    pointer-events: none;
+    background-color: #242a38;
+  }
+  .calendar-icon {
+    font-size: 28px;
+    color: $grayColor;
+    margin-top: -5px;
+  }
+}
