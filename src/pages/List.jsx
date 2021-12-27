@@ -63,9 +63,6 @@ function List() {
       </Row>
       <Row className="justify-content-md-start">
         <Col md={12}>
-
-        </Col>
-        <Col md={12}>
           <Row>
             <Col md={'auto'}>
               Promosyon Kodu
@@ -78,7 +75,7 @@ function List() {
             <Row>
               <Col md={12}>
                 <div>Promosyon Kodu seçeneği ile tüm Economy kabini Eco Fly paketlerini %50 indirimler satın alabilirsiniz!</div>
-                <div>Promosyon Kodu seneği aktifken Eco Fly paketi haricinde seçim yapılamamaktadır.</div>
+                <div>Promosyon Kodu seçeneği aktifken, <b>Eco Fly</b> paketi haricinde seçim yapılamamaktadır.</div>
               </Col>
             </Row>
             : null}

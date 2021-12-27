@@ -11,7 +11,6 @@ import useFly from "../hooks/useFly";
 
 function Main() {
   let history = useHistory();
-
   const { origin, destination } = useFly();
 
   /**
@@ -73,7 +72,6 @@ function Main() {
               </Row>
             </Col>
           </Row>
-
         </Col>
       </Row>
     </Container>

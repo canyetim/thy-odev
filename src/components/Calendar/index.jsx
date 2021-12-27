@@ -23,8 +23,4 @@ const Calendar = (props) => {
     )
 };
 
-Calendar.propTypes = {
-
-};
-
 export default Calendar;

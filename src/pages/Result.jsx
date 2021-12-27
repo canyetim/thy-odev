@@ -59,7 +59,6 @@ function Result() {
             <hr />
           </Col>
         </Row>
-
         {result?.status === 'AVAILABLE' ?
           <Row className="justify-content-md-between">
             <Col md={'auto'}>

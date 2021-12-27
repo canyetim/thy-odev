@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Button, Col, Row } from "react-bootstrap";
-import './style.scss';
 import useFly from "../../hooks/useFly";
 import { useHistory } from "react-router-dom";
+import './style.scss';
 
 /**
  *

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Dropdown } from "react-bootstrap";
 import PropTypes from "prop-types";
 import useFly from "../../hooks/useFly";
@@ -12,12 +12,6 @@ import './style.scss';
 const SearchCriteria = (props) => {
     const { list, type, placeholder } = props;
     const { time, price, updateTime, updatePrice, flights, updateFlights } = useFly(null);
-
-    /**
-     * 
-     */
-    useEffect(() => {
-    }, [])
 
     /**
      * 
